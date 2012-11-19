@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techiekernel</groupId>
-	<artifactId>webservice-JAX-WS</artifactId>
+	<artifactId>webservice-JAX-WS-RPC</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>webservice-JAX-WS</name>
@@ -38,13 +38,13 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.techiekernel.ws.jax.FooBarPublisher</mainClass>
+							<mainClass>com.techiekernel.ws.jaxws.rpc.FooBarPublisher</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>webservice-JAX-WS</finalName>
+		<finalName>webservice-JAX-WS-RPC</finalName>
 	</build>
 
 </project>
