@@ -10,7 +10,7 @@ public class FooBarClient {
 	public static void main(String[] args) {
 		URL url = null;
 		try {
-			url = new URL("http://localhost:8080/webservice-JAX-WS/foobar?wsdl");
+			url = new URL("http://localhost:8080/webservice-JAX-WS-RPC/foobar?wsdl");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
